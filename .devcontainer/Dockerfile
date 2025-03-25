@@ -1,5 +1,5 @@
 # Cloud-SDKのテンプレを立ち上げる
-FROM google/cloud-sdk:latest AS gcloud
+FROM google/cloud-sdk:slim AS gcloud
 
 # Ubuntu - DevContiner公式イメージ
 # * GitHub | devcontainer/cpp : https://github.com/devcontainers/images/tree/main/src/base-ubuntu
